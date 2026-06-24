@@ -1,0 +1,11 @@
+name = "dorianmarie-domain-redirects"
+main = "src/index.mjs"
+compatibility_date = "2026-06-14"
+workers_dev = false
+
+routes = [
+  { pattern = "dorianmarie.fr/*", zone_name = "dorianmarie.fr" },
+  { pattern = "www.dorianmarie.fr/*", zone_name = "dorianmarie.fr" },
+  { pattern = "dorianmarie.org/*", zone_name = "dorianmarie.org" },
+  { pattern = "www.dorianmarie.org/*", zone_name = "dorianmarie.org" },
+]
